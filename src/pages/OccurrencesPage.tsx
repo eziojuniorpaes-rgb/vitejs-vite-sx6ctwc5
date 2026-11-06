@@ -1,0 +1,3 @@
+import { occurrenceCategories, operationalAreas } from '../data/constants'
+
+export function OccurrencesPage() { return <section className="card"><div className="card-title"><div><span className="eyebrow">HISTÓRICO</span><h2>Ocorrências</h2></div></div><div className="filters"><input placeholder="Buscar por descrição ou pessoa" /><select><option>Todas as áreas</option>{operationalAreas.map(area => <option key={area}>{area}</option>)}</select><select><option>Todas as categorias</option>{occurrenceCategories.map(category => <option key={category}>{category}</option>)}</select></div><div className="empty compact"><p>Nenhuma ocorrência local neste pacote visual.</p></div></section> }

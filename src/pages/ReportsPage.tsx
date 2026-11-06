@@ -1,0 +1,1 @@
+export function ReportsPage() { return <section className="card empty"><span className="empty-icon">▤</span><h2>Relatórios de culto</h2><p>A listagem, o calendário e os filtros serão conectados ao Supabase no próximo ciclo.</p></section> }
